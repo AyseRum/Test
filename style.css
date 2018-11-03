@@ -12,3 +12,11 @@
 #bigName{
 	font-style: bold;
 }
+
+#comparison{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #fffded;
+
+}
