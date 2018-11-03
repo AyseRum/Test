@@ -13,7 +13,9 @@ function getFlights(flyFrom, to, dateFrom, dateTo) {
     HTTP.onreadystatechange=(e)=>{
         var response = HTTP.responseText;
         obj = JSON.parse(response);
-        console.log(obj[1]);
+        for (let index = 0; index < obj.data.length; index++) {
+            console.log(obj.data[index].fly_duration);
+        }
     }
 }
 
