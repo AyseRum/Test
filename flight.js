@@ -33,7 +33,7 @@ var to = document.getElementById('cityToId').value;
 var dateFrom = parseDate(document.getElementById('dateFromId').value);
 var dateTo = parseDate(document.getElementById('dateToId').value);
 var stops = ""; 
-
+var flightnos = "";
 const HTTP = new XMLHttpRequest();
 var url = 'https://api.skypicker.com/flights?flyFrom=' + flyFrom + '&fly_to=' + to + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&max_stopovers=' + layOvers;
 
@@ -53,18 +53,23 @@ HTTP.onreadystatechange=(e)=>{
     
     for (let i = 0; i<10; i++){
         stops = "";
+        flightnos = "";
         if(layOvers>0){
             for(let j = 0; j<layOvers; j++){
                 if(j>0){
                     stops = stops +"; ";
+                    flightnos = flightnos + "-> ";
                 }
                 stops = stops + obj.data[flights[i]].route[j].cityTo;
                 document.getElementsByClassName("layover")[i].innerHTML = stops;
+                flightnos = flightnos + obj.data[flights[i]].route[j].flight_no;
+                document.getElementsByClassName("flightno")[i].innerHTML = flightnos;
             }
             
             
         } else {
             document.getElementsByClassName("layover")[i].innerHTML = "-";
+            document.getElementsByClassName("flightno")[i].innerHTML = obj.data[flights[i]].route[0].flight_no;
         }
         
         
@@ -74,7 +79,7 @@ HTTP.onreadystatechange=(e)=>{
 //        coord.push(obj.data[flights[i]].route[0].latTo);
         
         document.getElementsByClassName("from")[i].innerHTML = obj.data[flights[i]].route[0].cityFrom;
-        document.getElementsByClassName("flightno")[i].innerHTML = obj.data[flights[i]].route[0].flight_no;
+        
         document.getElementsByClassName("to")[i].innerHTML = obj.data[flights[i]].route[layOvers].cityTo;
         document.getElementsByClassName("pr")[i].innerHTML = obj.data[flights[i]].price + " " + obj.currency;
         document.getElementsByClassName("duration")[i].innerHTML = obj.data[flights[i]].fly_duration;
@@ -83,7 +88,7 @@ HTTP.onreadystatechange=(e)=>{
     
     document.getElementById("table1").style.display = "inline-block";
 
-    document.getElementById("things").innerHTML = coord[0]+ ","+coord[1]+ "; "+coord[2]+ ","+coord[3];
+
     //getSuggestions(coord[0], coord[1], coord[2], coord[3]);
 }
  //getSuggestions(coord[0], coord[1], coord[2], coord[3]);

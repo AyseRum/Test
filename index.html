@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Take Your Journey!</title>
+        <title>Take your Journey!</title>
         <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
         <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
         <script src="flight.js" type="text/javascript"></script>
@@ -30,7 +30,7 @@
         <div class="row topPart">
             <div class="col-8">
                 <div class="row">
-    	            <div class="offset-1 col-4 inputs">
+    	            <div class="offset- col inputs">
     		            <form>
                             <div class="row">
                               <input type="text" name="cityFrom" id="cityFromId" placeholder="From...">
@@ -40,14 +40,14 @@
                             </div>
                         </form>
                     </div>
-                    <div class="offset-2 col-4 inputs">
+                    <div class="col inputs">
                              <form>
                                  <div class="row">
                                     <input type="date" name="dateFrom" id="dateFromId" value="2018-11-04"
                        min="2018-11-04" max="2019-11-04"/>
                                 </div>
                                 <div class="row">
-                                    <input type="date" name="dateTo" id="dateToId" value="2018-11-05"
+                                    <input type="date" name="dateTo" id="dateToId" value="2018-12-05"
                        min="2018-11-05" max="2019-11-05"/>
                                 </div>
                             </form>
@@ -64,7 +64,7 @@
                     </div>
                 <div id="table-container" class="container-fluid">
     
-    <table id="table1" class="table table-striped" style="display:none; position: relative; float: left; left: 10%;">
+    <table id="table1" class="table table-striped" style="display:none; position: relative; float: left; left: 0%;">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -173,14 +173,15 @@
     
     </div>
                     <div class="row" id="directionMaps" > <!--We decided against a flight map because it's not life driving directions where it would show a line-->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3464.937566830014!2d-95.34169623454973!3d29.721567690706987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d29.7219907!2d-95.3402243!4m5!1s0x8640be5a49e22ac3%3A0x4b29d0be68d5b7dd!2sStarbucks%2C+Melcher+Hall%2C+334+Calhoun+Rd%2C+Houston%2C+TX+77204!3m2!1d29.721044!2d-95.339339!5e0!3m2!1sen!2sus!4v1541326610296"  frameborder="0" style="border:0" allowfullscreen ></iframe>                    
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d110599.7798329689!2d-90.23218965238826!3d29.972442273126525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x8620b7747a837831%3A0xfae3336b9ce9d1d0!2sLouis+Armstrong+New+Orleans+International+Airport%2C+900+Airline+Dr%2C+Kenner%2C+LA+70062!3m2!1d29.9922012!2d-90.25901119999999!4m5!1s0x8620a611d6a2855d%3A0xb6d817d06be158bd!2sBourbon+Street%2C+New+Orleans%2C+LA!3m2!1d29.959023799999997!2d-90.06528759999999!5e0!3m2!1sen!2sus!4v1541352180273" width="600" height="450" frameborder="0" style="border:0" allowfullscreen style="height: 100%"></iframe>                    
                     </div> <!--instead use this with here maps api for directions to cultural index destination-->
 
             </div>
     	    <div class="col-4 culturalIndex"> <!--The cultural index part, or just where we want to integrate yelp api maps for cool spots at layover or destination-->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26569.424103678193!2d-117.15142370986005!3d32.74491287965329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e880457902402c9!2sHolsem+Coffee!5e0!3m2!1sen!2sus!4v1541318143956" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7116.092127529388!2d-90.06519751265485!3d29.957712865765078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1541352313998" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         
+        <div id="mapContainer"></div>
     </body>
 </html>
