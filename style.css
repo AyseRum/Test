@@ -69,7 +69,7 @@ select{
 input{
     position: relative;
     height: 50px;
-    /*width: 200px;*/
+    width: 100%;
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ input{
 
 
 .inputs{
-    /*border: 3px dotted tan;*/
+    border: 3px dotted tan;
 }
 
 .culturalIndex{
