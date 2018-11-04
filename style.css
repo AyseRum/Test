@@ -13,9 +13,31 @@
 	font-style: bold;
 }
 
-#comparison{
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin: 0 auto;
-    background-color: #77dfec;
+.head{
+	font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    width: 10em;
+}
+
+.flightNumbers {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 19px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+    width: 10em;
 }
