@@ -8,16 +8,16 @@ body{
     border-right: 1px solid black;
 }
 .topPart{
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 }
 
 #cityFromId{
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
    
 }
 
 #cityToId{
-    border: 1px solid green;
+   /* border: 1px solid green;*/
    
 }
 
@@ -30,7 +30,9 @@ iframe{
 }
 #layoversId{
     font-size: 2em;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #directionMaps{
@@ -42,9 +44,12 @@ iframe{
 #submitButton{
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
-    background: rgb(161, 160, 160);
+    background: lightgray;
+    /*border-radius: 5px;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
-    margin: auto;
 }
 select{
     height: 50px;
@@ -65,11 +70,11 @@ input{
 
 
 .inputs{
-    border: 3px dotted tan;
+    /*border: 3px dotted tan;*/
 }
 
 .culturalIndex{
-    border: black 2px solid;
+    /*border: black 2px solid;*/
     height: 750px;
     margin-bottom:0px;
 }
