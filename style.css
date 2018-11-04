@@ -10,7 +10,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     border-left: 1px double black;
     border-right: 1px solid black;
-    
+    background-color: rgb(173, 204, 255);
 }
 
 .topPart{
