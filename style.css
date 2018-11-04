@@ -4,13 +4,32 @@
 }
 
 .topPart{
-	border-radius: 5px;
+	border: 1px solid black;
+}
 
+#cityFromId{
+	border: 1px;
+	border: 1px solid blue;
+}
 
+#cityToId{
+	border: 1px solid green;
+}
+
+input{
+	height: 50px;
+	margin: auto;
+}
+
+.culturalIndex{
+	border: black 2px solid;
+	height: 200px;
 }
 
 #bigName{
 	font-style: bold;
+	font-family: sans-serif;
+	font-size: 4em;
 }
 
 #comparison{

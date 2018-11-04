@@ -7,21 +7,23 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="bootstrap-grid.css">
     </head>
-    <body>
+    <body class="container">
     	<div id="bigName">Trip Planner</div>
-    	<div class="topPart">
-    		<form>
-    			<input type="text" name="cityFrom">
-    			<input type="text" name="cityTo">
-    		</form>
-    		<div class="culturalIndex">
-    			
-    			
+    		<div class="topPart offset-0 col-4">
+    			<form>
+    				<div class="row">
+    					<input type="text" name="cityFrom" id="cityFromId" placeholder="From...">
+    				</div>
+    				<div class="row">
+    					<input type="text" name="cityTo" id="cityToId" placeholder="To...">
+    				</div>
+    			</form>
     		</div>
-    		
+    		<div class="culturalIndex offset-5 col-6">
+    			Where Map will be
+    		</div>
     	</div>
        
-        
         <div id="comparison">
             <table>
                 <tr>
