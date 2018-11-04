@@ -1,0 +1,8 @@
+We set on to build a platform where people are able to find cheap flights, but also get the opportunity to explore. 
+Using CYJ, you're able to find flights from point A and point B for dirt cheap, but also get recommendations on what cities to keep an eye out for and adventure. 
+
+It's not the same to be stuck for 6 hours in Lubbock vs 6 hours in New Orleans. 
+
+Currently, we are able to find flights for users and also give them the choice of picking how many layovers they'd like. In the future, we want to incorporate the capability of ranking layovers and planning activities for our users. Using things like the Places API, HERE, and TripAdvisor would allow us to show our users how to best spend that layover time.
+
+This was a great learning experience as we went from learning how to use GitHub and no API knowledge, to going deep in the JSON and building the site.
