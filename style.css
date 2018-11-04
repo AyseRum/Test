@@ -10,7 +10,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     border-left: 1px double black;
     border-right: 1px solid black;
-    border-radius: 50px;
+    
 }
 
 .topPart{
@@ -64,6 +64,7 @@ select{
     width:100%;
     font-size:2em;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
 }
 input{
     position: relative;
@@ -77,6 +78,7 @@ input{
     font-weight: 150;
     padding-left: 10px;
     left: 70%;
+    border-radius: 5px;
 }
 
 
