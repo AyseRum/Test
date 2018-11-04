@@ -1,0 +1,837 @@
+{
+    "businesses": [
+        {
+            "id": "paxRLjJUE2IQ-WyNqMGfCw",
+            "alias": "eat-edinburgh-2",
+            "name": "Eat",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/SIwT91kPtWUeyMhPwg4XEg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/eat-edinburgh-2?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 14,
+            "categories": [
+                {
+                    "alias": "food_court",
+                    "title": "Food Court"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.9485990814193,
+                "longitude": -3.36344718933106
+            },
+            "transactions": [],
+            "price": "£",
+            "location": {
+                "address1": "Unit 20586",
+                "address2": "Jubilee Road",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Unit 20586",
+                    "Jubilee Road",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+447508659829",
+            "display_phone": "+44 7508 659829",
+            "distance": 584.7661443937287
+        },
+        {
+            "id": "8F4n9wX3mrD5MK4Nq2yeRg",
+            "alias": "costa-coffee-edinburgh-22",
+            "name": "Costa Coffee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7iKVI8LNNTOrhwe7WVc0Mg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/costa-coffee-edinburgh-22?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 55.9483321333216,
+                "longitude": -3.36412929998719
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "Airside Departures Lounge",
+                "address2": "Edinburgh Airport Jubilee Road",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "XGL",
+                "display_address": [
+                    "Airside Departures Lounge",
+                    "Edinburgh Airport Jubilee Road",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313332741",
+            "display_phone": "+44 131 333 2741",
+            "distance": 553.1834232186643
+        },
+        {
+            "id": "j1z3VKQ-TdlpSLQNdOL3jw",
+            "alias": "bridge-inn-ratho-ratho",
+            "name": "Bridge Inn Ratho",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/b5QY4EHck8KTUoDf8g7jHw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bridge-inn-ratho-ratho?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 21,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                },
+                {
+                    "alias": "bedbreakfast",
+                    "title": "Bed & Breakfast"
+                },
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.92261,
+                "longitude": -3.37897
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "27 Baird Road",
+                "address2": "",
+                "address3": "",
+                "city": "Ratho",
+                "zip_code": "EH28 8RU",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "27 Baird Road",
+                    "Ratho EH28 8RU",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313331320",
+            "display_phone": "+44 131 333 1320",
+            "distance": 3001.949003829195
+        },
+        {
+            "id": "xAFmrRyAN7Q64BDWgnUWeQ",
+            "alias": "wetherspoons-edinburgh",
+            "name": "Wetherspoons",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/80wIP9133LDmYYQ94T7-1w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wetherspoons-edinburgh?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 15,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 55.948783,
+                "longitude": -3.362795
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "Edinburgh Airport",
+                "address2": "175 Jubilee Road",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport",
+                    "175 Jubilee Road",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313443030",
+            "display_phone": "+44 131 344 3030",
+            "distance": 619.2085550479318
+        },
+        {
+            "id": "dTvNFsBl6YknOb2lNB0GMw",
+            "alias": "aspire-lounge-city-of-edinburgh",
+            "name": "Aspire Lounge",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CJeAI8Y77G97M_sFDXi7Xw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aspire-lounge-city-of-edinburgh?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "airportlounges",
+                    "title": "Airport Lounges"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 55.946301,
+                "longitude": -3.359972
+            },
+            "transactions": [],
+            "price": "£££",
+            "location": {
+                "address1": "Edinburgh Airport",
+                "address2": "175 Jubilee Rd",
+                "address3": "",
+                "city": "City of Edinburgh",
+                "zip_code": "EH12 9FS",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport",
+                    "175 Jubilee Rd",
+                    "City of Edinburgh EH12 9FS",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 766.4354680537738
+        },
+        {
+            "id": "ir5It_h_RseZA_g5X2DpKQ",
+            "alias": "british-airways-lounge-edinburgh",
+            "name": "British Airways Lounge",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/zM6pBTLBrdJgAl_mQOxdGw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/british-airways-lounge-edinburgh?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "airportlounges",
+                    "title": "Airport Lounges"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.9484274,
+                "longitude": -3.3644319
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": null,
+                "address2": null,
+                "address3": null,
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DP",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh EH12 9DP",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313445600",
+            "display_phone": "+44 131 344 5600",
+            "distance": 531.8941638107596
+        },
+        {
+            "id": "jRqaloeKwSV89nfMMnS53Q",
+            "alias": "no-1-lounges-ingliston",
+            "name": "No 1 Lounges",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/84C365PSYLYF2dbp9nGeIQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/no-1-lounges-ingliston?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "lounges",
+                    "title": "Lounges"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 55.9512381464171,
+                "longitude": -3.36039114743471
+            },
+            "transactions": [],
+            "price": "£",
+            "location": {
+                "address1": "Edinburgh Airport",
+                "address2": "Ingilston Road",
+                "address3": "",
+                "city": "Ingliston",
+                "zip_code": "EH28",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport",
+                    "Ingilston Road",
+                    "Ingliston EH28",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 766.3504663307714
+        },
+        {
+            "id": "zVTjG-8SO1ivxY8ScDj3pQ",
+            "alias": "craigies-farm-deli-and-café-queensferry-2",
+            "name": "Craigie's Farm Deli and Café",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6Raiwlqn23mUfk6vVFfqNQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/craigies-farm-deli-and-caf%C3%A9-queensferry-2?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "farmersmarket",
+                    "title": "Farmers Market"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "delis",
+                    "title": "Delis"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 55.9726468271921,
+                "longitude": -3.35182319160819
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "West Craigie Farm",
+                "address2": "South Queensferry",
+                "address3": "",
+                "city": "Queensferry",
+                "zip_code": "EH30",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "West Craigie Farm",
+                    "South Queensferry",
+                    "Queensferry EH30",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313191048",
+            "display_phone": "+44 131 319 1048",
+            "distance": 2828.009306747253
+        },
+        {
+            "id": "uJWN9vppJa3dEDycucwTxA",
+            "alias": "yo-sushi-ingliston",
+            "name": "YO! Sushi",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YoYMPBeEEHHXTYTY656ofA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/yo-sushi-ingliston?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 10,
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 55.9483154,
+                "longitude": -3.3631823
+            },
+            "transactions": [],
+            "price": "£",
+            "location": {
+                "address1": "Edinburgh Airport",
+                "address2": "Jubilee Rd",
+                "address3": null,
+                "city": "Ingliston",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport",
+                    "Jubilee Rd",
+                    "Ingliston EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313412020",
+            "display_phone": "+44 131 341 2020",
+            "distance": 609.6225594465045
+        },
+        {
+            "id": "-y9IFYiDeLl3P6GbfK9zWQ",
+            "alias": "the-railbridge-bistro-queensferry-2",
+            "name": "The Railbridge Bistro",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gMyOExU8-_b-0rFcoyrCsw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-railbridge-bistro-queensferry-2?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 20,
+            "categories": [
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "bistros",
+                    "title": "Bistros"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 55.9898964370359,
+                "longitude": -3.38685050480521
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "4 Newhalls Road",
+                "address2": "",
+                "address3": "",
+                "city": "Queensferry",
+                "zip_code": "EH30 9TA",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "4 Newhalls Road",
+                    "Queensferry EH30 9TA",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313311996",
+            "display_phone": "+44 131 331 1996",
+            "distance": 4525.261914297462
+        },
+        {
+            "id": "a1pKdqVX4z7WSfRH008ojQ",
+            "alias": "forth-rail-bridge-firth-of-forth",
+            "name": "Forth Rail Bridge",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mulJYHJlSvK6jKpqSUsDdg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/forth-rail-bridge-firth-of-forth?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "publictransport",
+                    "title": "Public Transportation"
+                },
+                {
+                    "alias": "landmarks",
+                    "title": "Landmarks & Historical Buildings"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 56.000421,
+                "longitude": -3.388726
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Firth of Forth",
+                "address2": "",
+                "address3": "",
+                "city": "Firth of Forth",
+                "zip_code": "",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Firth of Forth",
+                    "Firth of Forth, Edinburgh",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 5696.724308488807
+        },
+        {
+            "id": "DluN-HsWCggeCo4MBR9cng",
+            "alias": "costa-coffee-edinburgh-21",
+            "name": "Costa Coffee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zO5QBEYAMw89TuOk70NdPA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/costa-coffee-edinburgh-21?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 55.9489397804038,
+                "longitude": -3.36567049119271
+            },
+            "transactions": [],
+            "price": "£",
+            "location": {
+                "address1": "Edinburgh Airport Departure Lounge",
+                "address2": "Edinburgh Airport",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport Departure Lounge",
+                    "Edinburgh Airport",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313332701",
+            "display_phone": "+44 131 333 2701",
+            "distance": 441.2497530668918
+        },
+        {
+            "id": "mmqSJyO2FNIlV18g4dMiWw",
+            "alias": "the-hawes-inn-south-queensferry",
+            "name": "The Hawes Inn",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uFPMsy3Ydvcg2wIynWz-2w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-hawes-inn-south-queensferry?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 19,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 55.989782,
+                "longitude": -3.3859913
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "7 Newhalls Road",
+                "address2": "",
+                "address3": "",
+                "city": "South Queensferry",
+                "zip_code": "EH30 9TA",
+                "country": "GB",
+                "state": "XGL",
+                "display_address": [
+                    "7 Newhalls Road",
+                    "South Queensferry EH30 9TA",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313311990",
+            "display_phone": "+44 131 331 1990",
+            "distance": 4502.513282201435
+        },
+        {
+            "id": "F4zLePxlUXVKXcbJYFo61A",
+            "alias": "orocco-pier-south-queensferry",
+            "name": "Orocco Pier",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Gj226msJ4fUPlubEiIheFg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/orocco-pier-south-queensferry?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 26,
+            "categories": [
+                {
+                    "alias": "hotels",
+                    "title": "Hotels"
+                },
+                {
+                    "alias": "british",
+                    "title": "British"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 55.990266,
+                "longitude": -3.396303
+            },
+            "transactions": [],
+            "price": "£££",
+            "location": {
+                "address1": "17 High Street",
+                "address2": "",
+                "address3": "",
+                "city": "South Queensferry",
+                "zip_code": "EH30 9PP",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "17 High Street",
+                    "South Queensferry EH30 9PP",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+448701181664",
+            "display_phone": "+44 870 118 1664",
+            "distance": 4714.8465505887725
+        },
+        {
+            "id": "m-17i76r4AnKAoQ6HZZ-5g",
+            "alias": "caffè-nero-edinburgh-18",
+            "name": "Caffè Nero",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/PuCOBTqTJ0KPKtOC2yvhhg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/caff%C3%A8-nero-edinburgh-18?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.9483785,
+                "longitude": -3.3631651
+            },
+            "transactions": [],
+            "price": "£",
+            "location": {
+                "address1": "Edinburgh International Airport",
+                "address2": "Airside Departures Lounge",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh International Airport",
+                    "Airside Departures Lounge",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313332931",
+            "display_phone": "+44 131 333 2931",
+            "distance": 608.525595667774
+        },
+        {
+            "id": "BZi1h9NMo8Kl4cIDZOFM_g",
+            "alias": "the-sir-walter-scott-edinburgh-3",
+            "name": "The Sir Walter Scott",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YRoRNFcqHbIKEjn8EdiEcA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-sir-walter-scott-edinburgh-3?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 2,
+            "coordinates": {
+                "latitude": 55.9491286008647,
+                "longitude": -3.36500323259635
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "Unit C170",
+                "address2": "Jubilee Road",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Unit C170",
+                    "Jubilee Road",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313484243",
+            "display_phone": "+44 131 348 4243",
+            "distance": 476.7035897942411
+        },
+        {
+            "id": "3sUWMdb8ogU2vcFL00MFWQ",
+            "alias": "the-boat-house-queensferry",
+            "name": "The Boat House",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5YqMsz_lkn1RkzLo9Vypug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-boat-house-queensferry?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.9901622309064,
+                "longitude": -3.39609471937817
+            },
+            "transactions": [],
+            "price": "£££",
+            "location": {
+                "address1": "22 High Street",
+                "address2": "",
+                "address3": "",
+                "city": "Queensferry",
+                "zip_code": "EH30",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "22 High Street",
+                    "Queensferry EH30",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313315429",
+            "display_phone": "+44 131 331 5429",
+            "distance": 4700.997463808683
+        },
+        {
+            "id": "E6FLeYVHYQoLOxoJmNsSWA",
+            "alias": "the-turnhouse-edinburgh",
+            "name": "The Turnhouse",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/PiHU_WExsJUySsJCJo-fWw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-turnhouse-edinburgh?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.9483795,
+                "longitude": -3.3631499
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "Landside Edinburgh Airport",
+                "address2": "",
+                "address3": "",
+                "city": "Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Landside Edinburgh Airport",
+                    "Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313355390",
+            "display_phone": "+44 131 335 5390",
+            "distance": 608.525595667774
+        },
+        {
+            "id": "54gEgX5Mn5oaVFDsXXiJ8A",
+            "alias": "ferry-tap-south-queensferry",
+            "name": "Ferry Tap",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/RTj4n9tvUH5mof5Q-EjUAA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ferry-tap-south-queensferry?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 55.989641,
+                "longitude": -3.394293
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "36 High Street",
+                "address2": "",
+                "address3": "",
+                "city": "South Queensferry",
+                "zip_code": "EH30 9HN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "36 High Street",
+                    "South Queensferry EH30 9HN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313312000",
+            "display_phone": "+44 131 331 2000",
+            "distance": 4610.7017398678245
+        },
+        {
+            "id": "ylIn3v_6SI7OBGRFxsTyDg",
+            "alias": "the-gathering-restaurant-and-lounge-city-of-edinburgh",
+            "name": "The Gathering Restaurant and Lounge",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/eyUmXxFmStKMVv9ur2qRmw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-gathering-restaurant-and-lounge-city-of-edinburgh?adjust_creative=HGCKsrotMHI7Xs7IA6Ot9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HGCKsrotMHI7Xs7IA6Ot9Q",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "lounges",
+                    "title": "Lounges"
+                },
+                {
+                    "alias": "british",
+                    "title": "British"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 55.9492602,
+                "longitude": -3.3629353
+            },
+            "transactions": [],
+            "price": "££",
+            "location": {
+                "address1": "Edinburgh Airport",
+                "address2": "Gate 11",
+                "address3": "",
+                "city": "City of Edinburgh",
+                "zip_code": "EH12 9DN",
+                "country": "GB",
+                "state": "EDH",
+                "display_address": [
+                    "Edinburgh Airport",
+                    "Gate 11",
+                    "City of Edinburgh EH12 9DN",
+                    "United Kingdom"
+                ]
+            },
+            "phone": "+441313330864",
+            "display_phone": "+44 131 333 0864",
+            "distance": 601.1566201539194
+        }
+    ],
+    "total": 48,
+    "region": {
+        "center": {
+            "longitude": -3.3725,
+            "latitude": 55.95
+        }
+    }
+}
+}

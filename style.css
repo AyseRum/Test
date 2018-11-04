@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+#page{
+    align-content: center; text-align: center;
+    background-color: rgb(219, 255, 229);
+    font-family: 'Roboto Slab', serif;
+    min-height: 100%;
+    height: 1080px;
+}
+
+#img-placeholder{
+    float: right;
+    margin-right: 10%;
+    background: url(images/culture.png);
+    height: 200px; 
+    width: 400px;
+}
+
+#inputs{
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#heading{
+    width: 100%;
+    background-color: rgb(190, 244, 235); 
+    box-shadow: -4px 10px 37px -15px rgba(0,0,0,0.75);
+    font-family: 'Lato', sans-serif;
+    z-index: 1000;
+}
+
+#inner{
+    margin-top: 50px;
+}
+
+#table-container{
+    width: 80%;
+    margin-left: 10%;;
+    align-content: center;
+    display: flex;
+}
