@@ -1,5 +1,12 @@
 div{
     border: 1px solid blue;
-    height: 100px;
 }
 
+
+.bigBox{
+    height:100px
+}
+
+.smallBox{
+    height: 50px;
+}
