@@ -2,14 +2,6 @@
    https://api.skypicker.com/flights?flyFrom=PRG&to=LGW&dateFrom=18/11/2018&dateTo=12/12/2018&partner=picky
  */
 
-function changeElements(f, t, p, d, i) {
-
-    document.getElementsByClassName("from")[i].innerHTML = f;
-    document.getElementsByClassName("to")[i].innerHTML = t;
-    document.getElementsByClassName("pr")[i].innerHTML = p;
-    document.getElementsByClassName("duration")[i].innerHTML = d;
-
-}
 
 
 function parseDate(date){

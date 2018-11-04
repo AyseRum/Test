@@ -2,11 +2,17 @@
     padding: 0;
     margin: 0;
 }
+#main{
+    padding: 40px;
+    background-color: rgb(125, 217, 232);
+}
 body{
     font-family: 'Montserrat', sans-serif;
     border-left: 1px double black;
     border-right: 1px solid black;
+    border-radius: 50px;
 }
+
 .topPart{
 	/*border: 1px solid yellow;*/
 }
@@ -29,10 +35,12 @@ iframe{
     
 }
 #layoversId{
-    font-size: 2em;
-    margin-top: 20px;
-    margin-left: auto;
+    position: relative;
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-left: -20;
     margin-right: auto;
+    width: 450px;
 }
 
 #directionMaps{
@@ -58,7 +66,9 @@ select{
     font-family: 'Montserrat', sans-serif;
 }
 input{
-    height: 100px;
+    position: relative;
+    height: 50px;
+    width: 200px;
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
@@ -66,6 +76,7 @@ input{
     font-style: oblique;
     font-weight: 150;
     padding-left: 10px;
+    left: 70%;
 }
 
 
@@ -80,6 +91,8 @@ input{
 }
 
 #bigName{
+    text-align: center;
+    background-color: rgb(165, 242, 255);
 	font-style: bold;
     font-size: 4em;
     margin-bottom: 20px;
