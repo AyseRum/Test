@@ -43,22 +43,24 @@
                     <div class="col inputs">
                              <form>
                                  <div class="row">
-                                    <input type="date" name="dateFrom" id="dateFromId">
+                                    <input type="date" name="dateFrom" id="dateFromId" value="2018-11-04"
+                       min="2018-11-04" max="2019-11-02"/>
                                 </div>
                                 <div class="row">
-                                    <input type="date" name="dateTo" id="dateToId">
+                                    <input type="date" name="dateTo" id="dateToId" value="2018-11-04"
+                       min="2018-11-04" max="2019-11-02"/>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="row layoverRow" >
-                        <label for="layovers" id="layoversId">Select Number of Layovers: </label>
-                        <select>
-                            <option value="0">0 - Can't Stop Won't Stop</option>
-                            <option value="1"> 1 - Curious</option>
-                            <option value="2">2 - Adventurer</option>
+                        <label for="layovers" >Select Number of Layovers: </label>
+                        <select id="layoversId">
+                            <option value=0>0 - Can't Stop Won't Stop</option>
+                            <option value=1> 1 - Curious</option>
+                            <option value=2>2 - Adventurer</option>
                         </select>
-                        <button type="submit" id="submitButton">Submit</button>
+                        <button type="submit" id="submitButton" class="btn btn-primary" onclick="getFlights()">Submit</button>
                     </div>
                     <div class="row" id="directionMaps"> <!--We decided against a flight map because it's not life driving directions where it would show a line-->
                             <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3464.937566830014!2d-95.34169623454973!3d29.721567690706987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d29.7219907!2d-95.3402243!4m5!1s0x8640be5a49e22ac3%3A0x4b29d0be68d5b7dd!2sStarbucks%2C+Melcher+Hall%2C+334+Calhoun+Rd%2C+Houston%2C+TX+77204!3m2!1d29.721044!2d-95.339339!5e0!3m2!1sen!2sus!4v1541326610296"  frameborder="0" style="border:0" allowfullscreen></iframe>                    
@@ -69,32 +71,104 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26569.424103678193!2d-117.15142370986005!3d32.74491287965329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e880457902402c9!2sHolsem+Coffee!5e0!3m2!1sen!2sus!4v1541318143956" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="offset-3 row-4 comparison">
-            <table>
-                <tr>
-                    <th class="head" colspan="2">Comparison</th>
-                </tr>
-                <tr>
-                    <th class="head">Duration</th>
-                    <th class="head">Cost</th>
-                </tr>
-                <tr class="flightNumbers">
-                    <td>flight1</td>
-                    <td>flight2</td>
-                </tr>
-                <tr class="flightNumbers">
-                    <td>flight4</td>
-                    <td>flight5</td>
-                </tr>
-                <tr class="flightNumbers">
-                    <td>flight9</td>
-                    <td>flight54</td>
-                </tr>                
-                <tr class="flightNumbers">
-                    <td>flight23</td>
-                    <td>flight20</td>
-                </tr>
-            </table>
-        </div>
+        <div id="table-container" class="container-fluid">
+    
+    <table id="table1" class="table table-striped" style="display:block; position: relative; float: left;">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Flight from</th>
+          <th scope="col">Layover(s)</th>
+          <th scope="col">Flight to</th>
+          <th scope="col">Price</th>
+          <th scope="col">Duration</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td class="from">Mark</td>
+           <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="from">Mark</td>
+            <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="from">Mark</td>
+            <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">4</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">5</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">6</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">7</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">8</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">9</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+          <tr>
+          <th scope="row">10</th>
+          <td class="from">Mark</td>
+              <td class="layover">-</td>
+          <td class="to">Otto</td>
+          <td class="pr">@mdo</td>
+          <td class="duration">@mdo</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    </div>
     </body>
 </html>
