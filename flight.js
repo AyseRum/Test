@@ -74,9 +74,11 @@ HTTP.onreadystatechange=(e)=>{
 //        coord.push(obj.data[flights[i]].route[0].latTo);
         
         document.getElementsByClassName("from")[i].innerHTML = obj.data[flights[i]].route[0].cityFrom;
+        document.getElementsByClassName("flightno")[i].innerHTML = obj.data[flights[i]].route[0].flight_no;
         document.getElementsByClassName("to")[i].innerHTML = obj.data[flights[i]].route[layOvers].cityTo;
         document.getElementsByClassName("pr")[i].innerHTML = obj.data[flights[i]].price + " " + obj.currency;
         document.getElementsByClassName("duration")[i].innerHTML = obj.data[flights[i]].fly_duration;
+        
     }
     
     document.getElementById("table1").style.display = "inline-block";
